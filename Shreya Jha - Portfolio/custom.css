@@ -1,0 +1,294 @@
+.tf__banner_img .img img {
+    height: 430px !important;
+    width: 420px !important;
+    border-radius: 50%;
+    border: 2px solid grey;
+    filter: blur(4px);
+}
+
+.tf__banner_img .img img:hover {
+    height: 430px !important;
+    width: 420px !important;
+    border-radius: 50%;
+    border: 3px dashed white;
+    transition: 0.9s;
+    filter: blur(0px);
+    transition: all 400ms cubic-bezier(.47, 1.64, .41, .8);
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.tf__banner_text h1 {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-weight: 900;
+}
+
+.tf__banner_text p {
+    text-align: justify;
+    word-break: break-all;
+}
+
+
+body p {
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
+}
+
+.tf__banner_text span {
+    color: #e2d0ff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+.download_btn {
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    transition: all 0.3s linear 0s;
+    background-color: #141c27;
+    color: white;
+    font-size: 1.0rem;
+    transition: all 400ms cubic-bezier(.47, 1.64, .41, .8);
+    border: 1px solid #141c27;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.download_btn:hover {
+    background: #141c27;
+    color: var(--colorWhite);
+}
+
+.learn_btn {
+    display: inline-flex;
+    padding: 20px 40px;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    transition: all 0.3s linear 0s;
+    background-color: transparent;
+    border: 1px solid #141c27;
+    transition: all 400ms cubic-bezier(.47, 1.64, .41, .8);
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.learn_btn:hover {
+    background: #141c27;
+    color: white;
+}
+
+
+.topbar {
+    background-color: black !important;
+}
+
+.topbar .link {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 0.90rem;
+    font-family: 'Titilium Web', sans-serif;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.topbar .link:hover {
+    color: white;
+    border-bottom: 2px solid #e2d0ff;
+}
+
+.topbar .alink {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    font-size: 0.90rem;
+    font-family: 'Titilium Web', sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid #e2d0ff;
+    padding: 15px 0;
+}
+
+.topbar .alink:hover {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Titilium Web', sans-serif;
+}
+
+/* About css */
+.about {
+    margin: 2rem 2rem;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+}
+
+.about .about-heading {
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.about .about-head {
+
+    margin: 0 auto;
+}
+
+.about .pre-heading {
+    color: #e2d0ff;
+}
+
+.about .about-img {
+    background-color: white;
+    height: 10rem !important;
+    width: 10rem !important;
+    border-radius: 50%;
+}
+
+.about .about-img img {
+    height: 15rem !important;
+    width: 15rem !important;
+}
+
+.about .about-content {
+    margin: 2rem 0;
+}
+
+.about .description {
+    text-align: justify;
+    word-break: break-all;
+}
+
+
+/* Service css */
+
+.service {
+    margin: 2rem auto;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    background-color: #111;
+}
+
+.service-icon {
+    font-size: 4rem;
+    padding: 50px 0;
+    color: #e2d0ff !important;
+}
+
+.service .service-heading {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 2.5rem;
+}
+
+.service .sub-heading {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.15rem;
+}
+
+.service .description {
+    text-align: justify;
+    word-break: break-all;
+    padding: 30px 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.service .service-item {
+    padding: 2rem 2rem;
+
+}
+
+.service .pre-heading {
+    color: #e2d0ff;
+    padding: 20px 0;
+}
+
+/* Projects */
+
+.projects {
+    margin: 2rem auto;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+}
+
+.projects-content {
+    padding: 3rem 0;
+}
+
+.projects-content h1 {
+    font-size: 2.5rem;
+}
+
+
+.projects-content p {
+    color: #e2d0ff;
+}
+
+
+
+/* Skills */
+
+.skills {
+    margin: 2rem auto;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    background-color: #111;
+}
+
+.skill-icon {
+    font-size: 1.0rem;
+    padding: 10px 0;
+    color: #e2d0ff !important;
+}
+
+.skills .skills-heading {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 2.5rem;
+}
+
+.skills .sub-heading {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.15rem;
+}
+
+.skills .description {
+    text-align: justify;
+    word-break: break-all;
+    padding: 30px 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.skills .skills-item {
+    padding: 2rem 2rem;
+
+}
+
+.skills .pre-heading {
+    color: #e2d0ff;
+    padding: 20px 0;
+}
+
+/* Contact */
+.contact .contact-info {
+    margin: 4rem 2rem;
+}
+
+.contact .form input {
+    border: 1px solid #e2d0ff;
+}
+
+.contact .form textarea {
+    border: 1px solid #e2d0ff;
+}
